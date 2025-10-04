@@ -75,7 +75,7 @@ export function ProfileCard() {
                         {/* Action buttons */}
                         <div className="flex flex-col gap-3 md:flex-row">
                             <Button
-                                className="flex-1 h-12 text-base font-medium bg-gray-700 text-primary hover:bg-gray-600 rounded-2xl"
+                                className="flex-1 h-12 text-base font-medium bg-primary text-foreground hover:bg-primary/60 rounded-2xl"
                                 variant="default"
                             >
                                 <ThumbsUp className="w-5 h-5 mr-1" />

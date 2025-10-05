@@ -75,14 +75,17 @@ export function ProfileCard() {
                         {/* Action buttons */}
                         <div className="flex flex-col gap-3 md:flex-row">
                             <Button
-                                className="flex-1 h-12 text-base font-medium bg-primary text-foreground hover:bg-primary/60 rounded-2xl"
+                                className="flex-1 h-12 text-base font-medium bg-primary text-primary-foreground hover:bg-primary/60 rounded-2xl cursor-pointer"
                                 variant="default"
+                                onClick={() => {
+                                    window.open('https://wa.me/233233674409?text=Hey%20Kweku,%20You%20are%20hired%20', '_blank');
+                                }}
                             >
                                 <ThumbsUp className="w-5 h-5 mr-1" />
                                 Hire Me
                             </Button>
                             <Button
-                                className="flex-1 h-12 text-base font-medium bg-gray-700 text-primary hover:bg-gray-600 rounded-2xl"
+                                className="flex-1 h-12 text-base font-medium  text-primary rounded-2xl cursor-pointer"
                                 variant="outline"
                                 onClick={handleCopyEmail}
                             >

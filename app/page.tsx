@@ -367,7 +367,7 @@ export default function Home() {
                   conversations about technology and design.
                 </p>
 
-                <div className="space-y-4">
+                {/* <div className="space-y-4">
                   <Link
                     href="mailto:asamoahduah101@gmail.com"
                     className="flex items-center gap-3 transition-colors duration-300 group text-foreground hover:text-muted-foreground">
@@ -385,7 +385,7 @@ export default function Home() {
                       />
                     </svg>
                   </Link>
-                </div>
+                </div> */}
                 <div className="font-mono text-sm text-muted-foreground">ELSEWHERE</div>
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
